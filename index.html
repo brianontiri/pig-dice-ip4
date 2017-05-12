@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>PigDice</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid top">
+    <h1>P I G &nbsp; D I C E</h1>
+    <p>A Roll dice game</p>
+    <div class="description">
+      <h2>Gameplay:</h2>
+      <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
+      <ul>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="container-fluid gamebar">
+    <div class="row">
+      <div class="col-md-3 sidebarLeft">
+        <!---SELECT OPPONENT DIV-->
+        <h3>Select Opponent:</h3>
+        <div class="radio">
+          <label><input type="radio" id="friend" name="optradio" value="friend"><p>Friend</p></label>
+        </div>
+        <button id="playbtn" type="button" class="play" width="20">PLAY</button>
+      </div>
+
+      <!--GAME DIV--->
+      <div class="col-md-6 centerbar">
+        <div class="homepage">
+
+        </div>
+
+        <div class="playsection">
+
+          <h2>Player: <span class="player"></span></h2>
+          <button id="rollbtn" type="button" class="success">Roll</button>
+          <button id="passbtn" type="button" class="warning">Pass</button>
+        </div>
+        <div class="winnerSection">
+          <h2>And the winner is <span class="winner"></span></h2>
+        </div>
+      </div>
+
+      <!--RESULTS-->
+      <div class="col-md-3 sidebaright">
+        <div class="scoresection">
+          <h2 id="scoreBoard">Results</h2>
+          <div class="player1image">
+
+            <p>
+              <h3><span class="player1"></span></h3></p>
+            <h2><span class="player1Score"></span></h2>
+          </div>
+          <div class="player2image">
+            
+            <p>
+              <h3><span class="player2"></span></h3></p>
+            <h2><span class="player2Score"></span></h2>
+          </div>
+          <h1>Your score:<span class="turnScore"></span></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

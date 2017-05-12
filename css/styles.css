@@ -1,0 +1,144 @@
+
+body{
+  background-color: black;
+}
+.top {
+
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  background-repeat: repeat-x;
+}
+
+.top h1 {
+  font-size: 90px;
+  font-family: 'Russo One';
+}
+
+.top p, li {
+  font-size: 20px;
+  font-family: 'Hammersmith One';
+}
+
+.description {
+  text-align: left;
+  color: white;
+  border-top: 1px solid red;
+  font-family: 'Russo One';
+}
+
+
+/*END OF HEADER*/
+
+.gamebar {
+  margin: 10px;
+}
+
+.sidebarLeft {
+  text-align: left;
+  font-size: 17px;
+  border: 1px solid #66ccff;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: 'Russo One';
+  color: #66ccff;
+  padding: 20px;
+}
+
+.centerbar {
+  text-align: center;
+  font-family: 'Russo One';
+  font-size: 20px;
+  border: 1px solid #66ccff;
+  color: #66ff66;
+  background-color:black;
+}
+
+.sidebaright {
+  border: 1px solid #66ccff;
+  font-family: 'Russo One';
+  font-size: 20px;
+  color: #66ccff;
+}
+
+.success {
+  background-color: #66ccff;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  font-size:30px;
+}
+.success:hover {
+  background-color:green;
+
+}
+
+.warning {
+  background-color: orange;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+  font-size:30px;
+}
+.warning:hover{
+  background-color:red;
+  color:white;
+
+}
+
+.play {
+  background-color: blue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+.play:hover {
+  background-color: red;
+  color: white;
+}
+
+.winnerSection {
+  border: 1px solid red;
+}
+
+#images {
+  float: right;
+  margin-left: 40%;
+}
+
+#scoreBoard {
+  padding-left: 30px;
+}
+
+.playsection {
+  display: none;
+}
+
+.scoresection {
+  display: none;
+}
+
+.winnerSection {
+  display: none;
+}
+
+.player1, .player2 {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.winnerSection {
+  text-align: center;
+}
+
+#ply1img {
+  height: 40px;
+  width: 30px;
+}
+
+#ply2img {
+  height: 40px;
+  width: 30px;
+}
